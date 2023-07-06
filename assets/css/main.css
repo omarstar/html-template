@@ -2433,7 +2433,7 @@ input, select, textarea {
 
 	}
 
-
+/* custom */
 
 	#ict {
 		display: flex;
@@ -2449,3 +2449,23 @@ input, select, textarea {
 	  .header-content h3 {
 		margin: 0;
 	  }
+
+.icon-wrap {
+	position: relative;
+	overflow: hidden;
+	font-size: 23px;
+	line-height: 54px;
+	width: 55px;
+	height: 55px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background .4s ease-in-out;
+	-moz-transition: background .4s ease-in-out;
+	-o-transition: background .4s ease-in-out;
+	transition: background .4s ease-in-out;
+}
