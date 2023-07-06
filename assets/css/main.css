@@ -2469,3 +2469,19 @@ input, select, textarea {
 	-o-transition: background .4s ease-in-out;
 	transition: background .4s ease-in-out;
 }
+
+.contactus-row {
+	justify-content: center;
+}
+
+/* .home-wrapper{
+	background: url("images/bg01.png"), url("../../images/imageDubaiCover.jpeg") !important;
+	background-position: top left, center center;
+	background-size: auto, cover;
+} */
+
+.contactus-wrapper {
+	background: url("images/bg01.png"), url("../../images/footerTech.jpg") !important;
+	background-position: top left, center center;
+	background-size: auto, cover;
+}
