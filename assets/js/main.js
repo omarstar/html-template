@@ -1,8 +1,4 @@
-/*
-	ZeroFour by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
 
@@ -23,6 +19,42 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+
+		var video = document.getElementById('video-background');
+		var isVideoPlaying = false;
+
+		function handleVideoPlayback() {
+		if (window.innerWidth > 980 && !isVideoPlaying) {
+			video.play();
+			isVideoPlaying = true;
+		} else if (window.innerWidth <= 980 && isVideoPlaying) {
+			video.pause();
+			isVideoPlaying = false;
+		}
+		}
+	//OWL Carousel initializer
+	$(document).ready(function() {
+		console.log('owl working!')
+		const options = {
+			autoPlay: false,
+			items: 5,
+			itemsDesktop: [1199, 4],
+			itemsDesktopSmall: [979, 3],
+			itemsMobile: [479,2]
+		}
+		$(".owl-carousel").owlCarousel(options);
+
+		// var video = document.getElementById('video-background');
+		// if (window.innerWidth > 980) {
+		// 	video.play();
+		// }
+		handleVideoPlayback();
+	   
+	  });
+
+	  window.addEventListener('resize', function() {
+		handleVideoPlayback();
+	  });
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
