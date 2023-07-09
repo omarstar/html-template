@@ -4,3 +4,5 @@ var path = window.location.pathname;
 var pageName = path.split('/').pop().replace('.html', '');
 // Set the dynamic title
 document.getElementById("dynamicTitle").innerText = pageName + " | Infracom";
+
+

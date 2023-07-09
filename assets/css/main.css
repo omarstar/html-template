@@ -1233,7 +1233,7 @@ input, select, textarea {
 
 		header p {
 			display: block;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			font-weight: 700;
 			letter-spacing: 0.065em;
 			font-size: 0.9em;
@@ -1402,7 +1402,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2.5em 0;
+			margin: 0 0 1.5em 0;
 		}
 
 		.image.left {
@@ -1619,7 +1619,7 @@ input, select, textarea {
 		}
 
 			.box.feature1 header.first h2 {
-				font-size: 2.5em;
+				font-size: 2.2em;
 			}
 
 			.box.feature1 header.first p {
@@ -1795,6 +1795,7 @@ input, select, textarea {
 			font-weight: 700;
 			line-height: 1.3em;
 			margin: 0 0 1.5em 0;
+			text-transform: capitalize;
 		}
 
 			#banner h2 strong {
@@ -1929,7 +1930,7 @@ input, select, textarea {
 		}
 
 		#logo-img {
-			max-width: 100%;
+			max-width: 80%;
 			height: auto;
 		  }
 
@@ -2046,6 +2047,8 @@ input, select, textarea {
 					width: 100%;
 					margin: 0 0 2em 0;
 				}
+
+		/* Custom */
 
 	}
 
@@ -2300,6 +2303,11 @@ input, select, textarea {
 				margin-top: 1em;
 			}
 
+		/* Custom */
+		#logo-img {
+			width: auto;
+		}	
+
 	}
 
 /* Small */
@@ -2472,7 +2480,7 @@ input, select, textarea {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(25, 25, 25, 0.5));
   }
 
   @media (min-width: 981px) {

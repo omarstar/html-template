@@ -6,24 +6,24 @@
 		$body = $('body');
 
 	// Breakpoints.
-		breakpoints({
-			xlarge:  [ '1281px',  '1680px' ],
-			large:   [ '981px',   '1280px' ],
-			medium:  [ '737px',   '980px'  ],
-			small:   [ null,      '736px'  ]
-		});
+	breakpoints({
+		xlarge:  [ '1281px',  '1680px' ],
+		large:   [ '981px',   '1280px' ],
+		medium:  [ '737px',   '980px'  ],
+		small:   [ null,      '736px'  ]
+	});
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+	$window.on('load', function() {
+		window.setTimeout(function() {
+			$body.removeClass('is-preload');
+		}, 100);
+	});
 
-		var video = document.getElementById('video-background');
-		var isVideoPlaying = false;
+	var video = document.getElementById('video-background');
+	var isVideoPlaying = false;
 
-		function handleVideoPlayback() {
+	function handleVideoPlayback() {
 		if (window.innerWidth > 980 && !isVideoPlaying) {
 			video.play();
 			isVideoPlaying = true;
@@ -31,30 +31,43 @@
 			video.pause();
 			isVideoPlaying = false;
 		}
+	}
+
+	function updateButtonClass(){
+		var windowWidth = $(window).width();
+		var inTouchButton = $('#get-in-touch-button');
+
+		if(windowWidth > 980){
+			inTouchButton.removeClass('medium').addClass('large');
+		} else {
+			inTouchButton.removeClass('large').addClass('medium');
 		}
+	}
+
 	//OWL Carousel initializer
 	$(document).ready(function() {
-		console.log('owl working!')
 		const options = {
-			autoPlay: false,
+			autoPlay: true,
+			slideSpeed: 200,
+			paginationSpeed: 500,
 			items: 5,
 			itemsDesktop: [1199, 4],
 			itemsDesktopSmall: [979, 3],
-			itemsMobile: [479,2]
+			itemsMobile: [479,2],
 		}
+		
 		$(".owl-carousel").owlCarousel(options);
 
-		// var video = document.getElementById('video-background');
-		// if (window.innerWidth > 980) {
-		// 	video.play();
-		// }
 		handleVideoPlayback();
+
+		updateButtonClass();
 	   
 	  });
-
-	  window.addEventListener('resize', function() {
-		handleVideoPlayback();
-	  });
+	
+	$(window).resize(function(){
+		  handleVideoPlayback();
+		updateButtonClass();
+	  })
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
