@@ -2323,8 +2323,14 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-			h2, h3, h4, h5, h6 {
+			h2, h3{
 				font-size: 13pt !important;
+			}
+			h4, h5 {
+				font-size: 11pt !important;
+			}
+			h6 {
+				font-size: 9pt !important;
 			}
 
 			h2 {
@@ -2568,12 +2574,14 @@ input, select, textarea {
 /* owl custom style */
 #owl-box .item img{
 	display: block;
-	width: 100%;
+	width: 80%;
 	/* height: auto; */
 }
 
 .owl-item {
 	align-self: center !important;
+	display: flex;
+	justify-content: center;
 }
 
 .owl-wrapper {
@@ -2599,7 +2607,7 @@ input, select, textarea {
   }
 
   .card-icon {
-	margin: 10px 0 20px 0;
+	margin: 20px 0 20px 0;
 	text-align: center;
   }
   
@@ -2669,6 +2677,13 @@ input, select, textarea {
 	align-items: center;
   }
 
+  @media screen and (min-width: 981px){
+	.right-col {
+	  padding: 0 0 0 35px;;
+	}
+
+}
+
   /* OUR INDUSTRIES */
   .our-industries {
 	padding: 40px 0;
@@ -2728,4 +2743,6 @@ input, select, textarea {
 	height: 10px;
 	box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.5), 0 -10px 10px -5px rgba(0, 0, 0, 0.5)
   }
+  
+
 /* end of custom style */
