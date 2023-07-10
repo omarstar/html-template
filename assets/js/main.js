@@ -58,14 +58,14 @@
 		
 		$(".owl-carousel").owlCarousel(options);
 
-		handleVideoPlayback();
+		// handleVideoPlayback();
 
 		updateButtonClass();
 	   
 	  });
 	
 	$(window).resize(function(){
-		  handleVideoPlayback();
+		//   handleVideoPlayback();
 		updateButtonClass();
 	  })
 

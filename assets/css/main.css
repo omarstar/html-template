@@ -2467,7 +2467,8 @@ input, select, textarea {
 	height: 100%;
 	object-fit: cover;
 	z-index: -2;
-	display: none;
+	display: block;
+	/* display: none; */
   }
 
  /* #image-bg {
@@ -2490,12 +2491,8 @@ input, select, textarea {
   }
 
   @media (min-width: 981px) {
-	#video-background {
+	/* #video-background {
 		display: block;
-	  }
-	
-	  /* #image-bg {
-		display: none;
 	  } */
 
 	  .home-wrapper{
@@ -2724,5 +2721,11 @@ input, select, textarea {
 	  flex-basis: 100%;
 	  max-width: 300px;
 	}
+  }
+
+  /* wrapper seperator style */
+  .wrapper-seperator{
+	height: 10px;
+	box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.5), 0 -10px 10px -5px rgba(0, 0, 0, 0.5)
   }
 /* end of custom style */
