@@ -2461,6 +2461,7 @@ input, select, textarea {
 
 	.image.featured {
 		margin: 0 0 1rem 0;
+		display: none;
 	}
   }
 
@@ -2501,7 +2502,7 @@ input, select, textarea {
 		display: block;
 	  } */
 
-	  .home-wrapper{
+	  .home-cover{
 		background: none !important;
 	  }
   }
@@ -2546,7 +2547,8 @@ input, select, textarea {
 	justify-content: center;
 }
 
-.home-wrapper{
+/* custom page cover backgrounds */
+.home-cover{
 	background: url("images/bg01.png"), linear-gradient(rgba(50,50,50, 0.5), rgba(20,20,20, 0.5)), url("../../images/infraCover.png");
 	background-position: top left, center center;
 	background-size: auto, cover;
@@ -2555,7 +2557,14 @@ input, select, textarea {
 	position: relative;
 }
 
-.contactus-wrapper {
+.aboutus-cover {
+	background: url(images/cover/cv-6.jpg), linear-gradient(rgba(50,50,50, 0.5), rgba(20,20,20, 0.5));
+    background-position: top left, center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contactus-cover {
 	background-image: url("images/bg01.png"), url("../../images/footerTech.jpg") !important;
 	background-position: top left, center center;
 	background-size: cover;
@@ -2743,6 +2752,55 @@ input, select, textarea {
 	height: 10px;
 	box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.5), 0 -10px 10px -5px rgba(0, 0, 0, 0.5)
   }
+
+  /* general */
+  .paragraph-with-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+  }
   
+/* contactus style */
+form.contact-form {
+	max-width: 400px;
+	margin: 0 auto;
+  }
+  
+  form.contact-form .form-group {
+	margin-bottom: 20px;
+  }
+  
+  form.contact-form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+  }
+  
+  form.contact-form input[type="text"],
+  form.contact-form input[type="email"],
+  form.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  form.contact-form textarea {
+	height: 120px;
+  }
+  
+  form.contact-form button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  form.contact-form button[type="submit"]:hover {
+	background-color: #45a049;
+  }
 
 /* end of custom style */
