@@ -34,7 +34,7 @@
 	}
 
 	function updateButtonClass(){
-		var windowWidth = $(window).width();
+		var windowWidth = $window.width();
 		var inTouchButton = $('#get-in-touch-button');
 
 		if(windowWidth > 980){
@@ -44,30 +44,15 @@
 		}
 	}
 
-	//OWL Carousel initializer
 	$(document).ready(function() {
-		const options = {
-			autoPlay: true,
-			slideSpeed: 200,
-			paginationSpeed: 500,
-			items: 5,
-			itemsDesktop: [1199, 4],
-			itemsDesktopSmall: [979, 3],
-			itemsMobile: [479,2],
-		}
-		
-		$(".owl-carousel").owlCarousel(options);
-
-		// handleVideoPlayback();
 
 		updateButtonClass();
 	   
-	  });
+	});
 	
-	$(window).resize(function(){
-		//   handleVideoPlayback();
+	$window.resize(function(){
 		updateButtonClass();
-	  })
+	})
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
@@ -108,5 +93,17 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+				// adjust the #header and #titleBar navbar after header-wrapper
+				$(document).on('scroll', function() {
+					var mainSectionOffset = $('#main-wrapper').offset().top;
+
+					if($window.scrollTop() >= mainSectionOffset) {
+						$('#titleBar').addClass('scrolled');
+						// $('#titleBar').css(display, none);
+					} else {
+						$('#titleBar').removeClass('scrolled');
+						// $('#titleBar').css(display, block);
+					}
+				})	
 
 })(jQuery);

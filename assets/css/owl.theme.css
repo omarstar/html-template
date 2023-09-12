@@ -13,7 +13,11 @@
 .owl-theme .owl-controls .owl-buttons div{
 	color: #FFF;
 	display: inline-block;
-	zoom: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 	*display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
@@ -31,13 +35,20 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /* Styling Pagination*/
 
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
-	zoom: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 	*display: inline;/*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span{
@@ -57,6 +68,11 @@
 .owl-theme .owl-controls.clickable .owl-page:hover span{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 }
 
 /* If PaginationNumbers is true */

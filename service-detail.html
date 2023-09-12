@@ -5,14 +5,17 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://kit.fontawesome.com/922f39ee72.js" crossorigin="anonymous"></script>
+		<!-- <script src="https://kit.fontawesome.com/922f39ee72.js" crossorigin="anonymous"></script> -->
 		<script src="./assets/js/script.js"></script>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header Wrapper -->
-				<div id="header-wrapper">
+				<div id="header-wrapper" class="" style="background: url(images/cover/cv-world-wide.jpg), linear-gradient(rgba(50,50,50, 0.5), rgba(20,20,20, 0.5));
+				background-position: top left, center center;
+				background-size: cover;
+				background-repeat: no-repeat;">
 					<div class="container">
 						<!-- Header -->
 						<header id="header">
@@ -31,8 +34,8 @@
 												<a href="services.html">Services</a>
 												<ul>
 													<li><a href="#security">Security</a></li>
-													<li><a href="#ict">Network</a></li>
-													<li><a href="#custexp">Customer Journey Experience</a></li>
+													<li><a href="service-detail.html">Network</a></li>
+													<li><a href="#custexp">Customer Journey Exp</a></li>
 													<li><a href="#proservices">Support & Integration</a></li>
 												</ul>
 											</li>
@@ -61,7 +64,7 @@
 												<p>Right from consultation to planning and successful implementation, we are with you at every stage to ensure that you enjoy end-to-end networking solutions and improved business performance.</p>
 											</header>
 
-											<span class="image featured"><img src="images/pic08.jpg" alt="" /></span>
+											<span class="image featured"><img src="images/img-network-servers.jpg" alt="" /></span>
 
 											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
@@ -72,69 +75,96 @@
 											mattis lectus sit amet pulvinar. Nam turpis nisi consequat etiam.</p>
 
 											<section class="box article-list">
-												<!-- <h2 class="icon fa-file-alt">Recent Posts</h2> -->
 
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<div class="image left icon-wrap">image</div>
-														<div>
-															<header>
-																<h3><a href="#">Data Centre Network</a></h3>
-															</header>
-															<p>Delivering robust and innovative solutions to ensure uninterrupted data center network. From network function virtualization to DC network migration.</p>
-														</div>
-													</article>
+												<div class="row">
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon fa-file-alt"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">Data Centre Network</a></h3>
+																</header>
+																<p>Delivering robust and innovative solutions to ensure uninterrupted data center network. From network function virtualization to DC network migration.</p>
+															</div>
+														</article>
+													</div>
 
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<div class="image left icon-wrap">image</div>														<div>
-															<header>
-																<h3><a href="#">Routing & Switching</a></h3>
-															</header>
-															<p>Connect your employees, customers, and other stakeholders with critical applications using robust routing & switching solutions.</p>
-														</div>
-													</article>
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon solid fa-network-wired"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">Routing & Switching</a></h3>
+																</header>
+																<p>Connect your employees, customers, and other stakeholders with critical applications using robust routing & switching solutions.</p>
+															</div>
+														</article>
+													</div>
 
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<div class="image left icon-wrap">image</div>														<div>
-															<header>
-																<h3><a href="#">Virtual Private Network (VPN)</a></h3>
-															</header>
-															<p>Through a virtual point-to-point connection, your employees can access a private network, and send and receive data even when working remotely.</p>
-														</div>
-													</article>
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-														<div>
-															<header>
-																<h3><a href="#">Structured Cabling Solutions</a></h3>
-															</header>
-															<p>Say no to network downtime with adequately maintained network cabling. Now, you don’t have to struggle with poorly installed cabling.</p>
-														</div>
-													</article>
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
-														<div>
-															<header>
-																<h3><a href="#">LAN & WAN Solutions</a></h3>
-															</header>
-															<p>Enabling new communication opportunities and helping businesses expand their network infrastructure with high-performance LAN & WAN solutions.</p>
-														</div>
-													</article>
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-														<div>
-															<header>
-																<h3><a href="#">Wireless</a></h3>
-															</header>
-															<p>To grow with fast and ever-changing IT environment, your business needs to invest in robust WAP, NAP and wireless controller.</p>
-														</div>
-													</article>
-
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon solid fa-wifi"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">Virtual Private Network (VPN)</a></h3>
+																</header>
+																<p>Through a virtual point-to-point connection, your employees can access a private network, and send and receive data even when working remotely.</p>
+															</div>
+														</article>
+													</div>
+												
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon solid fa-scroll"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">Structured Cabling Solutions</a></h3>
+																</header>
+																<p>Say no to network downtime with adequately maintained network cabling. Now, you don’t have to struggle with poorly installed cabling.</p>
+															</div>
+														</article>
+													</div>
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon solid fa-network-wired"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">LAN & WAN Solutions</a></h3>
+																</header>
+																<p>Enabling new communication opportunities and helping businesses expand their network infrastructure with high-performance LAN & WAN solutions.</p>
+															</div>
+														</article>
+													</div>
+													<!-- Excerpt -->
+													<div class="col-4 col-6-medium col-12-small">
+														<article class="box excerpt d-flex">
+															<span>
+																<i class="icon-wrap icon solid fa-wifi"></i>
+															</span>
+															<div>
+																<header>
+																	<h3><a href="#">Wireless</a></h3>
+																</header>
+																<p>To grow with fast and ever-changing IT environment, your business needs to invest in robust WAP, NAP and wireless controller.</p>
+															</div>
+														</article>
+													</div>
+												</div>
 											</section>
 										</article>
 
@@ -155,7 +185,7 @@
 								<section>
 									<h2>Services</h2>
 									<ul class="divided">
-										<li><a href="#ict">Network Infrastructure</a></li>
+										<li><a href="service-detail.html">Network Infrastructure</a></li>
 										<li><a href="#custexp">Customer Journey Experience</a></li>
 										<li><a href="#proservices">IT Support and Integration</a></li>
 										<li><a href="#security">Security Surveillance</a></li>
