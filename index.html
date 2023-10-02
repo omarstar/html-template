@@ -4,11 +4,17 @@
 		<title>Infracom</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="shortcut icon" href="/images/cover/fav.ico" type="image/ico">
+		<link rel="shortcut icon" href="/images/cover/favicon.ico" type="image/ico">
+		<link rel="icon" href="%PUBLIC_URL%/images/cover/favicon.ico" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
-		
-		
+		<meta name="theme-color" content="#000000" />
+    	<meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    	<link rel="apple-touch-icon" href="%PUBLIC_URL%/images/cover/favicon.ico" />
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 		
 		<!-- OWL stylesheets - basic - default -->
 		<link rel="stylesheet" href="./assets/css/owl.carousel.css">
@@ -21,10 +27,10 @@
 				<div id="header-wrapper">
 					
 					<!-- Add additional video sources for different formats if needed -->
-					<!-- <video id="video-background" autoplay loop muted>
-						<source src="./images/videos/video (1080p).mp4" type="video/mp4">
+					<video id="video-background" autoplay loop muted>
+						<source src="./images/videos/v-blue-network.mp4" type="video/mp4">
 					</video>
-					<div class="overlay"></div> -->
+					<!-- <div class="overlay"></div> -->
 
 					<!-- <img id="image-bg" src="./images/infraCover.png" alt="Background Image"> -->
 
@@ -46,85 +52,37 @@
 											<ul>
 												<li class="current_page_item"><a href="index.html">Home</a></li>
 												<li>
-													<a href="right-sidebar.html">Products & Partners</a>
+													<a href="#">Products</a>
 													<ul>
-														<li><a href="#security">Network Infrastructure</a>
-															<ul>
-																<li><a href="https://www.cisco.com/" target="_blank">Cisco</a></li>
-																<li><a href="https://www.comnet.net/" target="_blank">Comnet</a></li>
-																<li><a href="http://www.amgsystems.com/" target="_blank">Amg Systems</a></li>
-															</ul>
-														</li>
+														<li><a href="./services/network.html?page=infrastructure">Network Infrastructure</a></li>
 														<li>
-															<a href="service-detail.html">Connectivity</a>
-															<ul>
-																<li><a href="https://www.rdm.com/" target="_blank">RDM</a></li>
-																<li><a href="https://www.nexans.ae/en/" target="_blank">Nexans</a></li>
-															</ul>
-														</li>
+															<a href="./services/network.html?page=infrastructure">Connectivity</a></li>
 														<li>
-															<a href="#custexp">Customer Journey Systems</a>
-															<ul>
-																<li><a href="https://www.qmatic.com/" target="_blank">Qmatic</a></li>
-															</ul>
-														</li>
-
+															<a href="./services/customerjourney.html?page=custexp">Customer Journey Systems</a></li>
 														<li>
-															<a href="#proservices">Servers</a>
-															<ul>
-																<li><a href="https://www.lenovo.com/ae/en/data-center/servers/" target="_blank">Lenovo</a></li>
-																<li><a href="https://www.dell.com/en-us/lp/servers-storage-networking" target="_blank">Dell</a></li>
-																<li><a href="https://www.hpe.com/emea_middle_east/en/servers.html" target="_blank">HP</a></li>
-																<li><a href="https://razberi.net/" target="_blank">Razberi</a></li>
-															</ul>
-														</li>
+															<a href="./services/datacenter.html">Servers</a></li>
 														<li>
-															<a href="#networksec">Storage</a>
-															<ul>
-																<li><a href="https://www.lenovo.com/ae/en/data-center/storage/" target="_blank">Lenovo</a></li>
-																<li><a href="https://www.dell.com/en-uk/shop/scc/sc/storage-products" target="_blank">HP</a></li>
-																<li><a href="https://razberi.net/" target="_blank">Razberi</a></li>
-															</ul>
-														</li>
+															<a href="./services/datacenter.html">Storage</a></li>
 														<li>
-															<a href="#datacenter">Security Surveillance</a>
-															<ul>
-																<li><a href="https://buildings.honeywell.com/ae/en/products/by-category/video-systems" target="_blank">Motorolla</a></li>
-																<li><a href="https://www.pelco.com/solutions/industries/safe-city" target="_blank">Pelco</a></li>
-															</ul>
-														</li>
+															<a href="./services/security.html?page=security">Security Surveillance</a></li>
 														<li>
-															<a href="#virtualization">Access Control</a>
-															<ul>
-																<li><a href="https://vanderbiltindustries.com/products/access-control" target="_blank">Vanderbilt</a></li>
-																<li><a href="https://buildings.honeywell.com/ae/en/products/by-category/access-control" target="_blank">Honeywell</a></li>
-															</ul>
-														</li>
+															<a href="./services/network.html?page=networksec">Access Control</a></li>
 													</ul>
 												</li>
 												<li>
 													<a href="services.html">Services</a>
 													<ul>
-														<li><a href="#security">Security Surveillance</a></li>
-														<li><a href="service-detail.html">Network Infrastructure</a></li>
-														<li><a href="#custexp">Customer Journey Exp</a></li>
-														<li><a href="#proservices">Support & Integration</a></li>
-														<li><a href="#networksec">Network Security</a></li>
-														<li><a href="#datacenter">Data Center</a></li>
-														<li><a href="#virtualization">Virtualization</a></li>
-														<li><a href="#backuprecovery">Back up & recovery</a></li>
-														<li><a href="#sftlicense">Software Licensing</a></li>
-														<li><a href="#cloudcomp">Cloud Computing</a></li>
-														<li><a href="#analytics">Data Analytics</a></li>
-														<!-- <li>
-															<a href="#">Products</a>
-															<ul>
-																<li><a href="#security">Security</a></li>
-																<li><a href="service-detail.html">Network</a></li>
-																<li><a href="#custexp">Customer Journey Experience</a></li>
-																<li><a href="#proservices">Services</a></li>
-															</ul>
-														</li> -->
+														<li><a href="./services/security.html?page=security">Security Surveillance</a></li>
+														<li><a href="./services/network.html?page=infrastructure">Network Infrastructure</a></li>
+														<li><a href="./services/customerjourney.html?page=custexp">Customer Journey Exp</a></li>
+														<li><a href="./services/network.html?page=proservices">Support & Integration</a></li>
+														<li><a href="./services/network.html?page=networksec">Network Security</a></li>
+														<li><a href="./services/datacenter.html">Data Center</a></li>
+														<li><a href="./services/network.html?page=virtualization">Virtualization</a></li>
+														<li><a href="./services/network.html?page=proservices">Back up & recovery</a></li>
+														<li><a href="./services/customerjourney.html?page=sftlicense">Software Licensing</a></li>
+														<li><a href="./services/network.html?page=proservices">Cloud Computing</a></li>
+														<li><a href="./services/analytics.html?page=analytics">Data Analytics</a></li>
 													</ul>
 												</li>
 												<li><a href="left-sidebar.html">About Us</a></li>
@@ -168,13 +126,13 @@
 									<p>Infracom develop strategic partnerships with some of the world's most respected brands and sought-after experts in their field. These alliances help to facilitate and add value to the delivery of quality-driven products.</p>
 								</header>
 								<div id="owl-box" class="owl-carousel owl-theme">
-									<div class="item"> <img src="https://www.qmatic.com/hubfs/theme-qmatic-com/img/qmatic-logo-2022.svg?2" alt="Owl Image Q-matic" width="200" height="30"/> </div>
+									<div class="item-mid"> <img src="https://www.qmatic.com/hubfs/theme-qmatic-com/img/qmatic-logo-2022.svg?2" alt="Owl Image Q-matic" width="200" height="30"/> </div>
 									<div class="item"> 
-										<svg xmlns="http://www.w3.org/2000/svg" width="160" height="60" viewBox="0 0 108 57" role="img">
+										<svg xmlns="http://www.w3.org/2000/svg" width="160" height="50" viewBox="0 0 108 57" role="img">
 											<style>
 												@media (min-width: 450px) {
 												  svg {
-													height: 60px;
+													height: 50px;
 												  }
 												}
 											  </style>
@@ -201,17 +159,17 @@
 											</g>
 										</svg>
 									</div>
-									<div class="item" style="width: 200px;"> <img src="images/partners/p-site-razberi-logo.png" alt="Owl Image" /> </div>
-									<div class="item" style="width: 200px;"> <img src="images/partners/p-site-ComNet-NoTag-Print-200px.jpg" alt="Owl Image" /> </div>
-									<div class="item"> <img src="images/partners/P_Pelco.png	" alt="Owl Image" /> </div>
-									<div class="item"> <img src="images/partners/P_Honeywell.png" alt="Owl Image" /> </div>
+									<div class="item-mid" style="width: 200px;"> <img src="images/partners/p-site-razberi-logo.png" alt="Owl Image" /> </div>
+									<div class="item-mid" style="width: 200px;"> <img src="images/partners/p-site-ComNet-NoTag-Print-200px.jpg" alt="Owl Image" /> </div>
+									<div class="item-mid"> <img src="images/partners/P_Pelco.png	" alt="Owl Image" /> </div>
+									<div class="item-mid"> <img src="images/partners/P_Honeywell.png" alt="Owl Image" /> </div>
 									<div class="item"> <img src="images/partners/P_lenovo.png" alt="Owl Image" /> </div>
-									<div class="item"> <img src="images/partners/P_vanderbilt_1.png" alt="Owl Image" /> </div>
+									<div class="item-plus"> <img src="images/partners/P_vanderbilt_1.png" alt="Owl Image" /> </div>
 									<div class="item"> <img src="images/partners/P_Motorola.png" alt="Owl Image" /> </div>
 									<div class="item"> <img src="images/partners/P_Dell.png" alt="Owl Image" /> </div>
 									<div class="item"> <img src="images/partners/P_HPE.png" alt="Owl Image" /> </div>
-									<div class="item"> <img src="images/partners/P_Nexans.png" alt="Owl Image" /> </div>
-									<div class="item"> <img src="images/partners/P_AMG.png" alt="Owl Image" /> </div>
+									<div class="item-mid"> <img src="images/partners/P_Nexans.png" alt="Owl Image" /> </div>
+									<div class="item-plus"> <img src="images/partners/P_AMG.png" alt="Owl Image" /> </div>
 									
 								</div>
 							</section>
@@ -243,7 +201,7 @@
 										</section>
 									</div>
 									<div class="col-4 col-6-medium col-12-small">
-										<div class="align-center"><span class="image featured"><img src="images/pic04.jpg" alt="" /></span></div>
+										<div class="align-center"><span class="image featured"><img src="images/infraCover.png" alt="" /></span></div>
 										<section class="aboutus-box">
 												<header class="major">
 													<h2>Stay in Touch</h2>
@@ -260,7 +218,7 @@
 										</section>
 									</div>
 									<div class="col-4 col-6-medium col-12-small">
-										<div class="align-center"><span class="image featured"><img src="images/pic06.jpg" alt="" /></span></div>
+										<div class="align-center"><span class="image featured"><img src="images/services-hand.png" alt="" /></span></div>
 										<section class="aboutus-box">
 												<header class="major">
 													<h2>Services</h2>
@@ -293,52 +251,58 @@
 											<h2>Our Industries that benefit from our services</h2>
 											<p>These sectors are primarily leveraging the latest IT services to unlock their growth potential and uncover newer avenues for their business.</p>
 										</header>
+										
 
-										<!-- the 3d cards animated container -->
-										<div class="cards-body">
-											<div class="wrapper">
-												<div class="card">
-												  <h1>
-													<span class="enclosed">Cut</span>out
-												  </h1>
-												</div>
-											  </div>
-										</div>
-
-										<!-- <div class="industries-grid">
+										<div class="industries-grid">
 											<div class="industry-box">
-												<img src="./images/ind-oil-gas.jpg" alt="Industry 1" class="industry-image">
-												<div class="industry-text">GAS AND OIL</div>
+												<img src="./images/industries/I_gov.png" alt="Industry 1" class="industry-image">
+												<div class="industry-text">GOVERMENTAL SECTOR</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/pic02.jpg" alt="Industry 2" class="industry-image">
-												<div class="industry-text">EDUCATION</div>
+												<img src="./images/industries/l_banking.png" alt="Industry 2" class="industry-image">
+												<div class="industry-text	">BANKING</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/pic03.jpg" alt="Industry 3" class="industry-image">
-												<div class="industry-text">GOVERNMENT SECTORS</div>
-											</div>
-											<div class="industry-box">
-												<img src="./images/pic01.jpg" alt="Industry 1" class="industry-image">
+												<img src="./images/industries/l_civilDefense.png" alt="Industry 3" class="industry-image">
 												<div class="industry-text">MILITARY & LAW ENFORCEMENT</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/pic02.jpg" alt="Industry 2" class="industry-image">
+												<img src="./images/industries/l_Corporate.png" alt="Industry 1" class="industry-image">
+												<div class="industry-text">BUSINESS</div>
+											</div>
+											<div class="industry-box">
+												<img src="./images/industries/l_Domestic.png" alt="Industry 2" class="industry-image">
 												<div class="industry-text">MANUFACTURING</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/ind-bank.jpg" alt="Industry 3" class="industry-image">
-												<div class="industry-text">BANKING</div>
+												<img src="./images/industries/l_education.png" alt="Industry 3" class="industry-image">
+												<div class="industry-text">EDUCATION</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/ind-health.jpg" alt="Industry 2" class="industry-image">
-												<div class="industry-text">HOSPITALITY</div>
+												<img src="./images/industries/l_healthcare.png" alt="Industry 2" class="industry-image">
+												<div class="industry-text">HEALTH</div>
 											</div>
 											<div class="industry-box">
-												<img src="./images/pic03.jpg" alt="Industry 3" class="industry-image">
+												<img src="./images/industries/l_maufacturing.png" alt="Industry 3" class="industry-image">
 												<div class="industry-text">RETAIL</div>
 											</div>
 											<div class="industry-box">
+												<img src="./images/industries/l_pharm.png" alt="Industry 2" class="industry-image">
+												<div class="industry-text">PHARMACY</div>
+											</div>
+											<div class="industry-box">
+												<img src="./images/industries/l_retail.png" alt="Industry 3" class="industry-image">
+												<div class="industry-text">RETAIL</div>
+											</div>
+											<div class="industry-box">
+												<img src="./images/industries/l_tourism.png" alt="Industry 2" class="industry-image">
+												<div class="industry-text">TOURISM</div>
+											</div>
+											<div class="industry-box">
+												<img src="./images/industries/l_transportation.png" alt="Industry 3" class="industry-image">
+												<div class="industry-text">TRANSPORTATION</div>
+											</div>
+											<!-- <div class="industry-box">
 												<img src="./images/pic03.jpg" alt="Industry 2" class="industry-image">
 												<div class="industry-text">SPORTS</div>
 											</div>
@@ -353,70 +317,42 @@
 											<div class="industry-box">
 												<img src="./images/ind-transportation.jpg" alt="Industry 3" class="industry-image">
 												<div class="industry-text">TRANSPORTATION</div>
-											</div>
-											<div class="industry-box">
-												<img src="./images/pic03.jpg" alt="Industry 2" class="industry-image">
-												<div class="industry-text">SPORTS</div>
-											</div>
-											<div class="industry-box">
-												<img src="./images/pic02.jpg" alt="Industry 3" class="industry-image">
-												<div class="industry-text">SMART CITIES</div>
-											</div>
-											<div class="industry-box">
-												<img src="./images/pic03.jpg" alt="Industry 2" class="industry-image">
-												<div class="industry-text">REAL STATE</div>
-											</div>
-											<div class="industry-box">
-												<img src="./images/ind-transportation.jpg" alt="Industry 3" class="industry-image">
-												<div class="industry-text">TRANSPORTATION</div>
-											</div>
-										  </div> -->
+											</div> -->
+										  </div>
 									<!-- </div> -->
 								</div>
 							</section>
 						</div>
 					</div>
-					<div class="wrapper style2">
+					<div class="wrapper style3">
 						<div class="inner">
+							<section class="our-industries">
+								<div class="container box">
+									<!-- <div class="row"> -->
+										<header class="major">
+											<h2>Stay in touch</h2>
+											<p>With industry experts in our Sales Teams, dedicated Tech Support, great Customer Service, and our state-of-the-art Warehouse.</p>
+										</header>
 
-							<!-- Feature 2 -->
-								<section class="container box feature2">
-									<div class="row">
-										<div class="col-6 col-12-medium">
-											<section>
-												<header class="major">
-													<h2>And this is a subheading</h2>
-													<p>It’s important but clearly not *that* important</p>
-												</header>
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-												consequat etiam.</p>
-												<footer>
-													<a href="#" class="button medium icon solid fa-arrow-circle-right">Let's do this</a>
-												</footer>
-											</section>
+										<!-- the 3d cards animated container -->
+										<div class="cards-body">
+											<div class="card-grid">
+												<a href="no-sidebar.html">
+													<div class="wrapper-3dcard">
+														<div class="card-animate">
+														  <h1>
+															<span class="enclosed">Email&nbsp;</span>Us
+														  </h1>
+														</div>
+													  </div>
+												</a>
+											</div>
 										</div>
-										<div class="col-6 col-12-medium">
-											<section>
-												<header class="major">
-													<h2>This is also a subheading</h2>
-													<p>And is as unimportant as the other one</p>
-												</header>
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-												consequat etiam.</p>
-												<footer>
-													<a href="#" class="button medium alt icon solid fa-info-circle">Wait, what?</a>
-												</footer>
-											</section>
-										</div>
-									</div>
-								</section>
-
-							</div>
+								</div>
+							</section>
+						</div>
 					</div>
+					
 				</div>
 				<!-- style3 removed -->
 			<!-- Footer Wrapper -->
@@ -427,19 +363,19 @@
 
 								<!-- Links -->
 									<section>
-										<h2>Services</h2>
+										<h2>Products</h2>
 										<ul class="divided">
-											<li><a href="service-detail.html">Network Infrastructure</a></li>
-											<li><a href="#custexp">Customer Journey Experience</a></li>
-											<li><a href="#proservices">IT Support and Integration</a></li>
-											<li><a href="#security">Security Surveillance</a></li>
-											<li><a href="#cloudcomp">Cloud Computing</a></li>
-											<li><a href="#networksec">Network Security</a></li>
-											<li><a href="#sftlicense">Software Licensing</a></li>
-											<li><a href="#backuprecovery">Backup and Disaster Recovery</a></li>
-											<li><a href="#virtualization">Virtualization</a></li>
-											<li><a href="#analytics">Data Analytics</a></li>
-											<li><a href="#datacenter">Data Center</a></li>
+											<li><a href="./services/network.html?page=infrastructure" data-content="infrastructure">Network Infrastructure</a></li>
+											<li><a href="./services/customerjourney.html?page=custexp" data-content="custexp">Customer Journey Experience</a></li>
+											<li><a href="./services/network.html?page=proservices" data-content="proservices">IT Support and Integration</a></li>
+											<li><a href="./services/security.html?page=security" data-content="security">Security Surveillance</a></li>
+											<li><a href="./services/network.html?page=cloudcomp" data-content="cloudcomp">Cloud Computing</a></li>
+											<li><a href="./services/network.html?page=networksec" data-content="networksec">Network Security</a></li>
+											<li><a href="./services/customerjourney.html?page=sftlicense" data-content="sftlicense">Software Licensing</a></li>
+											<li><a href="./services/network.html?page=backuprecovery" data-content="backuprecovery">Backup and Disaster Recovery</a></li>
+											<li><a href="./services/network.html?page=virtualization" data-content="virtualization">Virtualization</a></li>
+											<li><a href="./services/analytics.html?page=analytics" data-content="analytics">Data Analytics</a></li>
+											<li><a href="./services/datacenter.html?page=datacenter" data-content="datacenter">Data Center</a></li>
 										</ul>
 									</section>
 
@@ -450,10 +386,10 @@
 									<section>
 										<h2>Infracom</h2>
 										<ul class="divided">
-											<li><a href="#">About Us</a></li>
-											<li><a href="#">Partners</a></li>
-											<li><a href="#">Contact Us</a></li>
-											<li><a href="#">Home</a></li>
+											<li><a href="services.html">Services</a></li>
+											<li><a href="left-sidebar.html">About Us</a></li>
+											<li><a href="no-sidebar.html">Contact Us</a></li>
+											<li><a href="index.html">Home</a></li>
 										</ul>
 									</section>
 
