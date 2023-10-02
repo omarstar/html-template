@@ -1,0 +1,79 @@
+{
+    "infrastructure": {
+      "title": "Network Infrastructure",
+      "image": "network_infrastructure.jpg",
+      "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "custexp": {
+      "title": "Customer Journey Experience",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "proservices": {
+      "title": "IT Support and Integration",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "security": {
+      "title": "Security Surveillance",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "cloudcomp": {
+      "title": "Cloud Computing",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "networksec": {
+      "title": "Network Security",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "sftlicense": {
+      "title": "Software Licensing",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "backuprecovery": {
+      "title": "Backup and Disaster Recovery",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "virtualization": {
+      "title": "Virtualization",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "analytics": {
+      "title": "Data Analytics",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    },
+    "datacenter": {
+      "title": "Data Center",
+      "image": "customer_experience.jpg",
+      "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+      "service-list": [{"title": "name","detail": "plapla"}],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in turpis ac ipsum tristique rhoncus."
+    }
+  }
