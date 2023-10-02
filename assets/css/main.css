@@ -1734,12 +1734,26 @@ input, select, textarea {
 				outline: 0;
 			}
 
+			/* #nav > ul > li.active::before,
+			#nav > ul > li.current_page_item::before,
+			#nav > ul > li.active > span::before,
+			#nav > ul > li.current_page_item > span::before {
+				content: '';
+				display: block;
+				border-bottom: solid 1px;
+					border-bottom-color: currentcolor;
+				border-color: #888;
+				border-color: rgba(0, 167, 233, 0.25);
+				margin: 1.25em 0 10px 0;
+			} */
+
 			#nav > ul > li.active > a,
 			#nav > ul > li.current_page_item > a,
 			#nav > ul > li.active > span,
-			#nav > ul > li.current_page_item > span {
-				/* background: rgba(0, 167, 233, 0.2); */
+			#nav > ul > li.current_page_item > span
+			{
 				background: rgba(20, 185, 241, 0.3);
+				/* background: white; */
 				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
 			}
 
@@ -1860,7 +1874,7 @@ input, select, textarea {
 /* Wrappers */
 /*  url("../../images/cover/bg-blue-test.png"); */
 	#header-wrapper {
-		background: url("images/bg01.png");
+		/* background: url("images/bg01.png"); */
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
