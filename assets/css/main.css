@@ -2672,6 +2672,13 @@ input, select, textarea {
 	justify-content: center;
 	align-items: center ;
 }
+#owl-box .item-xmid{
+	margin: 3px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
 
 /* owl custom style */
 #owl-box .item img{
@@ -2688,6 +2695,11 @@ input, select, textarea {
 	display: block;
 	width: 60%;
 	/* height: auto; */
+}
+#owl-box .item-xmid img{
+	display: block;
+	width: 70%;
+	/* height: 85%; */
 }
 
 .owl-item {
