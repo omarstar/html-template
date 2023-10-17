@@ -1,7 +1,7 @@
 //OWL Carousel initializer
 $(document).ready(function() {
     const options = {
-        autoPlay: false,
+        autoPlay: true,
         slideSpeed: 200,
         paginationSpeed: 500,
         items: 5,
