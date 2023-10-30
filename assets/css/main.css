@@ -109,8 +109,9 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
-		a:hover {
+		a:hover, a:focus {
 			text-decoration: none;
+			outline: 0;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1457,7 +1458,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 800;
-		font-size: 0.95em;
+		font-size: 0.8em;
 		letter-spacing: 0.075em;
 		padding: 1em 2em;
 		outline: 0;
@@ -1722,11 +1723,11 @@ input, select, textarea {
 		}
 
 			#nav > ul > li > a, #nav > ul > li > span {
-				color: #3B3E45;
-				/* color: #fff; */
+				/* color: #3B3E45; */
+				color: #4e4e4e;
 				text-decoration: none;
 				text-transform: uppercase;
-				font-weight: 800;
+				font-weight: 700;
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
@@ -1747,14 +1748,24 @@ input, select, textarea {
 				margin: 1.25em 0 10px 0;
 			} */
 
+			#nav > ul > li.active > a:hover,
+			#nav > ul > li.current_page_item > a:hover,
+			#nav > ul > li.active > span:hover,
+			#nav > ul > li.current_page_item > span:hover,
+			#nav > ul > li > a:hover,
+			#nav > ul > li > span:hover {
+				color: #00aeee;
+			}
+
 			#nav > ul > li.active > a,
 			#nav > ul > li.current_page_item > a,
 			#nav > ul > li.active > span,
 			#nav > ul > li.current_page_item > span
 			{
 				/*background: rgba(20, 185, 241, 0.3);*/
-			    background: var(--primary-color);
-				color: white;
+			    /* background: var(--primary-color); */
+				color: #00aeee;
+				/* color: white; */
 				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
 			}
 
@@ -1891,7 +1902,7 @@ input, select, textarea {
 		padding: 3em 0;
 	}
 
-	body.homepage #header-wrapper .hero-h50 {
+	body.homepage #header-wrapper {
 		height: 100vh;
 	}
 
@@ -1942,6 +1953,16 @@ input, select, textarea {
 			background-position: top center, top left;
 		}
 
+		.wrapper.style2 {
+			position: relative;
+			text-shadow: 1px 1px 0 #fff;
+			background-color: #fff;
+			background-image: url(images/bg03.png), url(images/bg02.png);
+			background-repeat: no-repeat, no-repeat;
+			background-size: 114% 15em, 5% 1em, auto auto;
+			background-position: top center, bottom left;
+		}
+
 /* Header */
 
 	#header {
@@ -1962,8 +1983,8 @@ input, select, textarea {
 			/* background-color: #3B3E45; */
 			/* background-color: rgba(0, 0, 62, 0.1); */
 			background-color: white;
-			border-radius: 8px;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
+			/* border-radius: 8px; */
+			/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15); */
 			/* text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5); */
 		}
 
@@ -2065,7 +2086,7 @@ input, select, textarea {
 			body.homepage #header-wrapper {
 				height: auto;
 			}
-			body.homepage #header-wrapper .hero-h50 {
+			body.homepage #header-wrapper {
 				height: auto;
 			}
 
@@ -2570,7 +2591,7 @@ input, select, textarea {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	object-fit: cover;
 	z-index: -2;
 	display: block;
