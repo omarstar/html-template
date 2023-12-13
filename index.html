@@ -2,20 +2,20 @@
 <html>
 	<head>
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon.ico" />
-		<title>Home | Infracom (infracommunication.com)</title>
+		<title>Infracom | Home (infracommunication.com)</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<meta name="description" content="Infracom Communication Networks, a dominant figure in the MENA region since 2008, stands as a foremost provider of comprehensive IT, digital transformation, and security services.">
 		<meta name="keywords" content="infracom, infracommunication, technology, security services,IT services, digital transformation, IT, comnet, cisco, lenovo, microsoft, vmware, nutanix, amg, pelco, motorola, phaseone, vanderbilt, act, razberi, AMG, media converter, network, switch, IP, queing, qmatic, sedco, cabling, cables, LV integrator, fiber cables, fiber converter, fiber switch, IT infrustructure, Physical security, network security, customer journey, customer experience,IoT, AI, analytics solutions, web applications, eticket, database, networks">
 		<meta name="robots" content="index, follow">
-		<meta property="og:title" content="Infracommunication.com">
+		<meta property="og:title" content="Infracommunication.com/v2">
         <meta property="og:description" content="Infracom Communication Networks, a dominant figure in the MENA region since 2008, stands as a foremost provider of comprehensive IT, digital transformation, and security services.">
         <meta property="og:image" content="https://infracommunication.com/v2/images/logoInfracom.png">
 		<meta name="theme-color" content="#000000" />
 		
 		<link rel="canonical" href="https://www.infracommunication.com/index">
 		<link rel="shortcut icon" href="/images/favicon.png">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		
 		
 		<script type="application/ld+json">
         {
@@ -31,12 +31,38 @@
 			  }
         }
         </script>
+
+		<!-- bootstrap v3.3.7 css -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+		<!-- fontawsome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- Font-animated css -->
+		<link rel="stylesheet" href="./assets/css/animate.min.3.5.1.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<!-- responsive css-->
+		<link rel="stylesheet" href="./assets/css/responsive.css">
+		<!-- custom css -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- owl slider css -->
+		<!-- <link rel="stylesheet" href="./assets/css/owl.css"> -->
 		
 		<!-- OWL stylesheets - basic - default -->
 		<link rel="stylesheet" href="./assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="./assets/css/owl.theme.css">
 	</head>
 	<body class="homepage is-preload">
+		<!-- <div class="preloader">
+			<div class="spiner">
+				<img src="images/animatedlogo.gif" alt="animated logo">
+			</div>
+		</div> -->
+		<div class="section" id="home" style="height: 1px; width: 100%"></div>
 		<!-- index1 -->
 		<div id="page-wrapper">
 
@@ -44,62 +70,110 @@
 				<div id="header-wrapper" class="hero-h50">
 					
 					<!-- Add additional video sources for different formats if needed -->
-					<video id="video-background" autoplay loop muted>
+					<!-- <video id="video-background" autoplay loop muted>
 						<source src="./images/videos/v-blue-network.mp4" type="video/mp4">
-					</video>
+					</video> -->
 					<!-- <div class="overlay"></div> -->
 
 					<!-- <img id="image-bg" src="./images/infraCover.png" alt="Background Image"> -->
-
 					<div class="">
 
 						<!-- Header -->
 							<header id="header" class="header-menu-container">
-								<div class="inner">
+								<div class="inner row mt-0 mb-0">
 
-									<!-- Logo -->
-										<div class="outer-logo-box">
-											<h1><a href="index.html" id="logo">
-												<img src="./images/logoInfracom.png" alt="infracom logo" id="logo-img"/>
-											</a></h1>
-										</div>
+											<div class="col-md-4">
+												<h1 class="col-md-4 text-center"><a href="index.html" id="logo">
+													<img src="./images/logoInfracom.png" alt="infracom logo" id="logo-img"/>
+												</a></h1>
+											</div>
 
-									<!-- Nav -->
-										<nav id="nav">
-											<ul>
-												<li class="current_page_item"><a href="index.html">Home</a></li>
-												<li>
-													<a href="#">Products</a>
+											<div class="col-md-8 d-flex align-items-center justify-content-between">
+												<nav id="nav" class="col-md-8 col-sm-12">
 													<ul>
-														<li><a href="./services/network.html?page=infrastructure">IT Infrastructure</a></li>
-														<li><a href="./services/security.html?page=security">Physical Security</a></li>
-														<li><a href="./services/customerjourney.html?page=custexp">Customer Journey</a></li>
+														<li class="current_page_item menu-item"><a href="index.html">Home</a></li>
+														<li class="menu-item">
+															<a href="index.html#service">Our Products</a>
+															<ul>
+																<li><a href="./services/network.html?page=infrastructure">IT Infrastructure</a></li>
+																<li><a href="./services/security.html?page=security">Physical Security</a></li>
+																<li><a href="./services/customerjourney.html?page=custexp">Customer Journey</a></li>
+															</ul>
+														</li class="menu-item">
+														<li class="menu-item">
+															<a href="services.html">Services</a>
+														</li>
+														<li class="menu-item"><a href="aboutus.html">About Us</a></li>
+														<li class="menu-item"><a href="#wcu">Why Choose Us</a></li>
+														<li class="menu-item"><a href="index.html#our-partners">Our Partners</a></li>
+														<li class="menu-item"><a href="contactus.html">Contact Us</a></li>
 													</ul>
-												</li>
-												<li>
-													<a href="services.html">Services</a>
-													<!-- <ul>
-														<li><a href="./services/security.html?page=security">Security Surveillance</a></li>
-														<li><a href="./services/network.html?page=infrastructure">Network Infrastructure</a></li>
-														<li><a href="./services/customerjourney.html?page=custexp">Customer Journey Exp</a></li>
-														<li><a href="./services/network.html?page=proservices">Support & Integration</a></li>
-														<li><a href="./services/network.html?page=networksec">Network Security</a></li>
-														<li><a href="./services/datacenter.html">Data Center</a></li>
-														<li><a href="./services/network.html?page=virtualization">Virtualization</a></li>
-														<li><a href="./services/network.html?page=proservices">Back up & recovery</a></li>
-														<li><a href="./services/customerjourney.html?page=sftlicense">Software Licensing</a></li>
-														<li><a href="./services/network.html?page=proservices">Cloud Computing</a></li>
-														<li><a href="./services/analytics.html?page=analytics">Data Analytics</a></li>
-													</ul> -->
-												</li>
-												<li><a href="aboutus.html">About Us</a></li>
-												<li><a href="index.html#our-partners">Our Partners</a></li>
-												<li><a href="contactus.html">Contact Us</a></li>
-											</ul>
-										</nav>
+												</nav>
+											</div>
 
 								</div>
 							</header>
+
+							
+						<!-- slider -->
+						<div class="slider-container">
+							<div class="slider d-flex">
+							<div id="owl-box" class="owl-carousel12 owl-theme slides">
+								<div id="slides__1" class="slide" style="background-image: url(./images/sliders/pelco-hero.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__8" title="Next"></a>
+								<a class="slide__next" href="#slides__2" title="Next"></a>
+								</div>
+								<div id="slides__2" class="slide" style="background-image: url(./images/sliders/cover-cisco.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__1" title="Prev"></a>
+								<a class="slide__next" href="#slides__3" title="Next"></a>
+								</div>
+								<div id="slides__3" class="slide" style="background-image: url(./images/sliders/Phaseone.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__2" title="Prev"></a>
+								<a class="slide__next" href="#slides__4" title="Next"></a>
+								</div>
+								<div id="slides__4" class="slide" style="background-image: url(./images/sliders/Lenovo-Tower-Servers.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__3" title="Prev"></a>
+								<a class="slide__next" href="#slides__5" title="Prev"></a>
+								</div>
+								<div id="slides__5" class="slide" style="background-image: url(./images/sliders/Slider-Image-1.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__4" title="Prev"></a>
+								<a class="slide__next" href="#slides__6" title="Prev"></a>
+								</div>
+								<div id="slides__6" class="slide" style="background-image: url(./images/sliders/Slider-Image-2.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__5" title="Prev"></a>
+								<a class="slide__next" href="#slides__7" title="Prev"></a>
+								</div>
+								<div id="slides__7" class="slide" style="background-image: url(./images/sliders/cover-access.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__6" title="Prev"></a>
+								<a class="slide__next" href="#slides__8" title="Prev"></a>
+								</div>
+								<div id="slides__8" class="slide" style="background-image: url(./images/sliders/cover-act.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__7" title="Prev"></a>
+								<a class="slide__next" href="#slides__1" title="Prev"></a>
+								</div>
+								<!-- <div id="slides__9" class="slide" style="background-image: url(./images/sliders/cover-lenovo.jpg);">
+								<span class="slide__text"></span>
+								<a class="slide__prev" href="#slides__8" title="Prev"></a>
+								<a class="slide__next" href="#slides__1" title="Prev"></a>
+								</div> -->
+							</div>
+							<!-- <div class="slider__nav">
+								<a class="slider__navlink" href="#slides__1"></a>
+								<a class="slider__navlink" href="#slides__2"></a>
+								<a class="slider__navlink" href="#slides__3"></a>
+								<a class="slider__navlink" href="#slides__4"></a>
+							</div> -->
+							</div>
+						</div>
+
 
 						<!-- Banner -->
 						<!-- <div id="banner" class="row">
@@ -113,34 +187,110 @@
 								<a id="get-in-touch-button" href="contactus.html" class="button large icon solid fa-check-circle">Get In Touch</a>
 							</div>
 						</div> -->
-							<div id="banner">
+							<!-- <div id="banner">
 								<h2>Transforming Businesses Through
 								<br />
 								End-To-End IT Solutions & Services</h2>
 								<p>We have solutions ready to Help your business</p>
 								<a id="get-in-touch-button" href="contactus.html" class="button large icon solid fa-check-circle">Get In Touch</a>
-							</div>
+							</div> -->
 
 					</div>
 				</div>
 
+				
+
 			<!-- Main Wrapper -->
 				<div id="main-wrapper">
-
-					<div class="wrapper aboutus-wrapper">
+					<!-- services section -->
+					<div id="service" class="section">
+						<div class="container">
+							<div class="arrow_down">
+								<img src="/img/arrow_down.png" alt="">
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-sm-6">
+									<div class="service_item wow fadeInUp" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+										<a href="./services/network.html?page=infrastructure" class="service-icon-link">
+											<div class="service_icon">
+												<div class="table-cell">
+													<img src="/img/service/icon_1.png" alt="">
+												</div>
+											</div>
+										</a>
+										<div class="service_text">
+											<h4>TELECOMMUNICATION <br>INFRASTRUCTURE</h4>
+											<div class="line"></div>
+											<p>As a leading provider of specialist telecommunications facilities, we provide specialist services for a wide variety of facilities from: wireless sites, microwave links and towers.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-sm-6">
+									<div class="service_item wow fadeInUp" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+										<a href="./services/security.html?page=security" class="service-icon-link">
+											<div class="service_icon">
+												<div class="table-cell">
+													<img src="/img/service/icon_2.png" alt="">
+												</div>
+											</div>
+										</a>
+										<div class="service_text">
+											<h4>SECURITY <br>SURVEILLANCE</h4>
+											<div class="line"></div>
+											<p>CCTV surveillance solutions allow businesses to monitor their site round the clock and ensure that the safety of their costly equipment is not compromised.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-sm-6">
+									<div class="service_item wow fadeInUp" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+										<a href="./services/network.html?page=infrastructure" class="service-icon-link">
+											<div class="service_icon">
+												<div class="table-cell">
+													<img src="/img/service/icon_3.png" alt="">
+												</div>
+											</div>
+										</a>
+										<div class="service_text">
+											<h4>CONVERGED <br>NETWORK SYSTEMS</h4>
+											<div class="line"></div>
+											<p>Our video &amp; date solution provides for the use of multiple communication modes on a single network that offers convenience and flexibility that are not possible with separate infrastructures.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-sm-6">
+									<div class="service_item wow fadeInUp" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+										<a href="./services/customerjourney.html?page=custexp" class="service-icon-link">
+											<div class="service_icon">
+												<div class="table-cell">
+													<img src="/img/service/icon_4.png" alt="">
+												</div>
+											</div>
+										</a>
+										<div class="service_text">
+											<h4>CUSTOMER FLOW <br>MANAGEMENT</h4>
+											<div class="line"></div>
+											<p>With 1.8 billion people pass through a Qmatic system each year, Qmatic is the world's #1 Customer Journey Experience Platform. Its products are designed to deliver an exceptional customer experience across your entire enterprise from a single point of control.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 3 columns --><!-- col-4 col-6-medium col-12-small -->
+					<div class="wrapper aboutus-wrapper pt-4">
 						<div class="inner">
 							<section class="container">
 								<div class="row">
-									<div class="col-4 col-6-medium col-12-small">
-										<div class="align-center"><span class="image featured"><img src="images/animatedlogo.gif" alt="" style="margin: 0 auto; max-width: 260px;" /></span></div>
+									<div class="col-12 col-lg-4">
+										<div class="d-flex justify-content-center"><span class="image featured" style="width: 230px;"><img src="images/animatedlogo.gif" alt="" style="margin: 0 auto; max-width: 260px;" /></span></div>
 										<section class="aboutus-box">
-											<header class="major">
+											<header class="major text-center">
 												<h2>About Us</h2>
 											</header>
 											<article class="article-box">
-												<div class="h-25">
-													<p>Infracom Communication Networks, stands as a foremost provider of comprehensive IT, digital transformation, and security services in the MENA region.</p>
-													<p class="paragraph-with-ellipsis">Infracom is dedicated to delivering the best of IT, IoT, AI and analytics solutions to our clients globally.</p>
+												<div class="h-30">
+													<p>Infracom delivers digital transformation and technology services from ideation to execution, enabling large and small enterprises to outperform the competition. By understanding both the products and applications, our engineers can recommend the right solution to meet your needs.</p>
+													<p class="paragraph-with-ellipsis line1">Infracom is dedicated to delivering the best of IT, IoT, AI and analytics solutions to our clients globally.</p>
 												</div>
 												<!-- <p>Infracom delivers digital transformation and technology services from ideation to execution, enabling large and small enterprises to outperform the competition. By understanding both the products and applications, our engineers can recommend the right solution to meet your needs.</p> -->
 												<!-- <p class="paragraph-with-ellipsis">At the same time, our deep expertise in infrastructure and applications management helps optimize your IT into a strategic asset. Whether you need to differentiate your company, reinvent business functions or accelerate revenue growth, we can get you there.</p> -->
@@ -151,16 +301,17 @@
 											</article>
 										</section>
 									</div>
-									<div class="col-4 col-6-medium col-12-small">
-										<div class="align-center"><span class="image featured"><img src="images/infraCover.png" alt="" /></span></div>
+									<div class="col-12 col-lg-4">
+										<div class="d-flex justify-content-center"><span class="image featured"><img src="images/infraCover.png" alt="" /></span></div>
 										<section class="aboutus-box">
-												<header class="major">
+												<header class="major text-center">
 													<h2>Stay in Touch</h2>
 												</header>
 												<article class="article-box">
-													<div class="h-25">
-														<p>Whatever you need from a distribution partner, we've got it covered.</p>
-														<p class="paragraph-with-ellipsis">With industry experts in our Sales Teams, dedicated Tech Support, great Customer Service, and our state-of-the-art Warehouse.</p>
+													<div class="h-30">
+														<!-- <p>Whatever you need from a distribution partner, we've got it covered.</p> -->
+														<p>Ready to redefine your business's technological capabilities? Contact Infracom today and let's explore the possibilities together!</p>
+														<p class="paragraph-with-ellipsis line3">With industry experts in our Sales Teams, dedicated Tech Support, great Customer Service, and our state-of-the-art Warehouse.</p>
 													</div>
 													<footer class="text-center">
 														<a href="contactus.html" class="button icon solid fa-file-alt">Stay In Touch</a>
@@ -168,14 +319,14 @@
 												</article>
 										</section>
 									</div>
-									<div class="col-4 col-6-medium col-12-small">
-										<div class="align-center"><span class="image featured"><img src="images/services-hand.png" alt="" /></span></div>
+									<div class="col-12 col-lg-4">
+										<div class="d-flex justify-content-center"><span class="image featured"><img src="images/services-hand.png" alt="" /></span></div>
 										<section class="aboutus-box">
-												<header class="major">
+												<header class="major text-center">
 													<h2>Services</h2>
 												</header>
 												<article class="article-box">
-													<div class="h-25">
+													<div class="h-30">
 														<p>Whether Managed IT Services Or Solutions Like Cloud, Security Or Networking, We Bring End-To-End IT Services, Support And Solutions To Businesses, Government, Institutions And Individual Consumers.</p>
 														<p class="paragraph-with-ellipsis">We'll support you before, during, and after the buying process, supporting you every step of the way.</p>
 													</div>
@@ -192,8 +343,46 @@
 						</div>
 					</div>
 
+					<!-- why choose us section -->
+					<!-- why us -->
+					<div id="wcu"></div>
+					<div id="why-us" class="wrapper">
+						<div id="" class="section inner">
+							<div class="wcu_bg">
+								<div class="container">
+									<div class="row content">
+										<div class="why_content">
+											<div class="wcu_content">
+												<header class="text-center major">
+													<h2 id="whyus_text">WHY CHOOSE US</h2>
+												</header>
+												<div class="wcu_item">
+													<div class="wcu_icon wow lightSpeedIn" data-wow-duration="2s"><img src="./images/icons/icon-1.png" alt=""></div>
+													<h4>WIDEST RANGE OF PRODUCTS</h4>
+													<!-- <p>We are a one-of-its-kind organization that services consumers, retailers, SMBs and enterprise customers. From switches to aerial videography and from data centers to consumer electronics, we have the capability to deliver the equipment you need.</p> -->
+													<p>We serve a broad spectrum of clients, from individual consumers to large enterprises, offering everything from cutting-edge data center solutions and switches to consumer electronics and aerial videography gear. Our diverse inventory ensures we meet all your technological needs.</p>
+												</div>
+												<div class="wcu_item">
+													<div class="wcu_icon wow lightSpeedIn" data-wow-duration="2s"><img src="./images/icons/icon-2.png" alt=""></div>
+													<h4>FAST &amp; RELIABLE DELIVERY</h4>
+													<!-- <p>Our work ideology is centered on making management of IT easier and less cumbersome for our clients. We offer complete flexibility in our approach to allow our clients leverage maximum value from their investments.</p> -->
+													<p>Our philosophy revolves around simplifying IT management. We guarantee flexible and efficient delivery, helping clients maximize their IT investments with our prompt and reliable service.</p>
+												</div>
+												<div class="wcu_item">
+													<div class="wcu_icon wow lightSpeedIn" data-wow-duration="2s"><img src="./images/icons/icon-3.png" alt=""></div>
+													<h4>EXPERT TECHNICAL SUPPORT</h4>
+													<!-- <p>We are proud to showcase a team of highly qualified and certified professionals, including brand certifications from leading brands as well as technology certifications like CCNA</p> -->
+													<p>Our team of certified experts, holding credentials from top brands and technical certifications like CCNA, provides exceptional support, ensuring you have the best guidance for your technology solutions.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<!-- <div class="wrapper-seperator"></div> -->
-					<div class="wrapper style3" id="our-partners">
+					<div class="wrapper style3 more-padding " id="our-partners">
 						<div class="inner">
 							<section class="our-industries">
 								<div class="container box">
@@ -211,7 +400,7 @@
 											<div class="industry-box item-plus"><img src="images/logos/pr-vanerbilt.jpg" alt="Owl Image Vanerbilt"/> </div>
 											<div class="industry-box item-plus"><img src="images/logos/pr_vanderbilt_act.png" alt="Owl Image Vanact"/> </div>
 											<div class="industry-box item-plus"><img src="images/logos/pr-lenovo.jpg" alt="Owl Image Lenovo"/> </div>
-											<div class="industry-box item-mid"><img src="images/partners/P_Nexans.png" alt="Owl Image Nexan" /> </div>
+											<div class="industry-box item-mid"><img src="images/logos/P_Nexans.png" alt="Owl Image Nexan" /> </div>
 											<div class="industry-box item-xmid"><img src="images/logos/pr_delltech.png" alt="Owl Image DELL" /> </div>
 											<div class="industry-box item-mid"><img src="images/logos/pr-microsoft.png" alt="Owl Image Microsoft"/> </div>
 											<div class="industry-box item-xmid"><img src="images/logos/pr_hp_t.png" alt="Owl Image HPE" /> </div>
@@ -301,10 +490,8 @@
 												<dl class="contact">
 													<dt>LinkedIn</dt>
 													<dd><a href="https://www.linkedin.com/company/13413794/">linkedin.com/Infracom</a></dd>
-													<dt>WWW</dt>
-													<dd><a href="https://infracommunication.com">infracommunication.com</a></dd>
-													<!-- <dt>Email</dt>
-													<dd><a href="mailto:sales@infracommunication.com">Sales@infracommunication.com</a></dd> -->
+													<dt>Email</dt>
+													<dd class="text-gray"><a href="mailto:sales@infracom.me">Sales@infracom.me</a></dd>
 												</dl>
 											</div>
 											<div class="col-6 col-12-large">
@@ -319,8 +506,8 @@
 													</dd>
 													<dt>Phone Us</dt>
 													<dd class="text-gray"><a href="tel:+97148876763">+971 4 887 6763</a> <br/> <a href="tel:+97143686083">+971 4 368 6083</a></dd>
-													<dt>Email Us</dt>
-													<dd class="text-gray"><a href="mailto:sales@infracommunication.com">sales@infracommunication.com</a></dd>
+													<!-- <dt>Email Us</dt>
+													<dd class="text-gray"><a href="mailto:sales@infracom.me">sales@infracom.me</a></dd> -->
 												</dl>
 											</div>
 										</div>
@@ -331,7 +518,7 @@
 							<div class="col-12">
 								<div id="copyright">
 									<ul class="menu text-gray">
-										<li>&copy; Infracom Communication Networks 2023. All rights reserved</li><li>Design: <a href="https://www.infracommunication.com">Omar Barakat | Infracommunication</a></li>
+										<li>&copy; Infracom Communication Networks 2023. All rights reserved</li>
 									</ul>
 								</div>
 							</div>
@@ -340,8 +527,11 @@
 				</div>
 
 		</div>
-
+		<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> <i class="fa fa-angle-up"></i></span></a>
 		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -351,6 +541,13 @@
 			<script src="assets/js/carousel.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- old site -->
+			<script src="assets/js/scrollspy.js"></script>
+			<script type="text/javascript" src="assets/js/wow.min.js"></script>
+			<script type="text/javascript" src="assets/js/active.js"></script>
+			<!-- <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script> -->
+			<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+			<!-- <script type="text/javascript" src="assets/js/owl.js"></script> -->
 
 	</body>
 </html>

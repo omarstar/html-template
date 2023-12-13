@@ -16,7 +16,7 @@
 		
 		<link rel="canonical" href="https://www.infracommunication.com/aboutus">
 		<link rel="shortcut icon" href="/images/favicon.png">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		
 		
 		<script type="application/ld+json">
         {
@@ -28,36 +28,42 @@
         }
         </script>
 
+		<!-- bootstrap v3.3.7 css -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<!-- responsive css-->
+		<link rel="stylesheet" href="./assets/css/responsive.css">
+		<!-- custom css -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
 	</head>
 
 	<body class="left-sidebar is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header Wrapper -->
-				<div id="header-wrapper" class="aboutus-page"
+				<!-- <div id="header-wrapper" class="aboutus-page"
 				 style="background: url(images/cover/cv-space.jpg), linear-gradient(rgba(50,50,50, 0.5), rgba(20,20,20, 0.5));
 						background-position: top left, center center;
 						background-size: cover;
 						background-repeat: no-repeat;">
 					<div class="container">
 
-						<!-- Header -->
 						<header id="header">
 							<div class="inner">
 
-								<!-- Logo -->
 									<div class="outer-logo-box">
 										<h1><a href="index.html" id="logo">
 											<img src="./images/logoInfracom.png" alt="infracom logo" id="logo-img"/>
 										</a></h1>
 									</div>
 
-								<!-- Nav -->
 								<nav id="nav">
 									<ul>
 										<li><a href="index.html">Home</a></li>
 										<li>
-											<a href="#">Products</a>
+											<a href="#">Our Products</a>
 											<ul>
 												<li><a href="./services/network.html?page=infrastructure">IT Infrastructure</a></li>
 												<li><a href="./services/security.html?page=security">Physical Security</a></li>
@@ -66,21 +72,10 @@
 										</li>
 										<li>
 											<a href="services.html">Services</a>
-											<!-- <ul>
-												<li><a href="./services/security.html?page=security">Security Surveillance</a></li>
-												<li><a href="./services/network.html?page=infrastructure">Network Infrastructure</a></li>
-												<li><a href="./services/customerjourney.html?page=custexp">Customer Journey Exp</a></li>
-												<li><a href="./services/network.html?page=proservices">Support & Integration</a></li>
-												<li><a href="./services/network.html?page=networksec">Network Security</a></li>
-												<li><a href="./services/datacenter.html">Data Center</a></li>
-												<li><a href="./services/network.html?page=virtualization">Virtualization</a></li>
-												<li><a href="./services/network.html?page=proservices">Back up & recovery</a></li>
-												<li><a href="./services/customerjourney.html?page=sftlicense">Software Licensing</a></li>
-												<li><a href="./services/network.html?page=proservices">Cloud Computing</a></li>
-												<li><a href="./services/analytics.html?page=analytics">Data Analytics</a></li>
-											</ul> -->
 										</li>
 										<li class="current_page_item"><a href="aboutus.html">About Us</a></li>
+                                        <li><a href="aboutus.html">Why Choose Us</a></li>
+                                        <li><a href="index.html#our-partners">Our Partners</a></li>
 										<li><a href="contactus.html">Contact Us</a></li>
 									</ul>
 								</nav>
@@ -89,6 +84,39 @@
 						</header>
 
 					</div>
+				</div> -->
+				<div id="header-wrapper">
+					<header id="header" class="header-menu-container">
+						<div class="inner row mt-0 mb-0">
+							<div class="col-md-4">
+								<h1 class="col-md-4 text-center"><a href="index.html" id="logo">
+									<img src="./images/logoInfracom.png" alt="infracom logo" id="logo-img"/>
+								</a></h1>
+							</div>
+							<div class="col-md-8 d-flex align-items-center justify-content-between">
+								<nav id="nav" class="col-md-8 col-sm-12">
+									<ul>
+										<li class="menu-item"><a href="index.html">Home</a></li>
+										<li class="menu-item">
+											<a href="index.html#service">Our Products</a>
+											<ul>
+												<li><a href="./services/network.html?page=infrastructure">IT Infrastructure</a></li>
+												<li><a href="./services/security.html?page=security">Physical Security</a></li>
+												<li><a href="./services/customerjourney.html?page=custexp">Customer Journey</a></li>
+											</ul>
+										</li class="menu-item">
+										<li class="menu-item">
+											<a href="services.html">Services</a>
+										</li>
+										<li class="current_page_item menu-item"><a href="aboutus.html">About Us</a></li>
+										<li class="menu-item"><a href="index.html#wcu">Why Choose Us</a></li>
+										<li class="menu-item"><a href="index.html#our-partners">Our Partners</a></li>
+										<li class="menu-item"><a href="contactus.html">Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</header>
 				</div>
 
 			<!-- Main Wrapper -->
@@ -96,19 +124,35 @@
 					<div class="wrapper style2">
 						<div class="inner">
 							<div class="container">
-								<div class="row">
+								<div class="">
 									<div class="content">
 										<article>
-											<header class="major">
+											<!-- <header class="major">
 												<h2>Who Are We</h2>
 												<p>Infracom Communication Networks, stands as a foremost provider of comprehensive IT, digital transformation, and security services in the MENA region.</p>
 											</header>
-											<p> With strategic footholds in the UAE and Saudi Arabia, we are driven by our mission to revolutionize businesses through pioneering solutions, turning IT into a pivotal asset.</p>
-											<p>Our core values revolve around collaboration, innovation, integrity, and an unwavering focus on customer success. Our team, a robust assembly of 35 professionals, boasts expertise spanning sales, engineering, and project management. Our certified engineers are dedicated to delivering optimal technical support and solution designs for our esteemed partners.</p>
-
+											<p>Our core values revolve around collaboration, innovation, integrity, and an unwavering focus on customer success. Our team, a robust assembly of 35 professionals, boasts expertise spanning sales, engineering, and project management. Our certified engineers are dedicated to delivering optimal technical support and solution designs for our esteemed partners.</p> -->
+											<header class="major">
+												<h2>Who Are We</h2>
+												<!-- <p> With strategic footholds in the UAE and Saudi Arabia, we are driven by our mission to revolutionize businesses through pioneering solutions, turning IT into a pivotal asset.</p> -->
+												<p> Transform Your Business with Infracom's Expertise.</p>
+											</header>
+											<!-- <p>Infracom delivers digital transformation and technology services from ideation to execution, enabling large and small enterprises to outperform the competition. By understanding both the products and applications, our engineers can recommend the right solution to meet your needs.</p> -->
+											<!-- <p>At the same time, our deep expertise in infrastructure and applications management helps optimize your IT into a strategic asset. Whether you need to differentiate your company, reinvent business functions or accelerate revenue growth, we can get you there.</p> -->
+											<!-- <p>Our technical expertise extends beyond product knowledge and selection. Today, a wealth of information is opening up a world of possibilities. Realizing those possibilities takes more than numbers. It takes more than technology. It takes people. People who can turn the potential of information into meaningful solutions. Solutions that simplify businesses. Improve governments. Propel societies forward. Let’s start the discussion today!</p> -->
 											<!-- <p>Embracing a global perspective, Infracom is dedicated to offering unparalleled IT, IoT, AI, and analytics solutions to startups, SMEs, and large enterprises. From ideation to execution, our unique blend of services ensures our clients always stay ahead of the curve. Whether it's setting up virtual workspaces, managing databases, or developing web applications, we make it our mission to go beyond the ordinary, every time.</p> -->
 
-											<!-- <p>At the same time, our deep expertise in infrastructure and applications management helps optimize your IT into a strategic asset. Whether you need to differentiate your company, reinvent business functions or accelerate revenue growth, we can get you there.</p> -->
+											<p>Infracom specializes in digital transformation and technology services, empowering both large and small businesses to surpass their competition. Our unique approach encompasses everything from initial idea generation to final execution, ensuring your enterprise thrives in the digital age.</p>
+
+											<p><strong>Key Highlights:</strong></p>
+											<p><strong>Tailored Solutions:</strong>  Our engineers excel in understanding a diverse range of products and applications, providing the perfect solutions tailored to your specific needs.</p>
+											<p><strong>Strategic IT Optimization:</strong>  We leverage our deep expertise in infrastructure and applications management to transform your IT infrastructure into a strategic asset for your business.</p>
+											<p><strong>Driving Growth and Innovation:</strong>  Whether it's setting your company apart, innovating business functions, or boosting revenue growth, Infracom is your partner in achieving these goals.</p>
+											<p><strong>Beyond Technical Knowledge:</strong>  Our strength lies in harnessing information for real-world applications - creating solutions that simplify business processes, enhance government operations, and advance societies.</p>
+											<p><strong>Human-Centric Approach:</strong>  We believe in the power of people to transform technology into meaningful solutions that drive progress.</p>
+											<br/>
+											<p>Ready to redefine your business's technological capabilities? Contact Infracom today and let's explore the possibilities together!</p>
+
 										</article>
 									</div>
 								</div>
@@ -241,12 +285,8 @@
 											<dl class="contact">
 												<dt>LinkedIn</dt>
 												<dd><a href="https://www.linkedin.com/company/13413794/">linkedin.com/Infracom</a></dd>
-												<dt>Facebook</dt>
-												<dd><a href="https://business.facebook.com/Infracom-200770853788242/">facebook.com/Infracom</a></dd>
-												<dt>WWW</dt>
-												<dd><a href="https://infracommunication.com">infracommunication.com</a></dd>
-												<!-- <dt>Email</dt>
-												<dd><a href="mailto:sales@infracommunication.com">Sales@infracommunication.com</a></dd> -->
+												<dt>Email</dt>
+												<dd class="text-gray"><a href="mailto:sales@infracom.me">Sales@infracom.me</a></dd>
 											</dl>
 										</div>
 										<div class="col-6 col-12-large">
@@ -261,8 +301,8 @@
 												</dd>
 												<dt>Phone Us</dt>
 												<dd class="text-gray"><a href="tel:+97148876763">+971 4 887 6763</a> <br/> <a href="tel:+97143686083">+971 4 368 6083</a></dd>
-												<dt>Email Us</dt>
-												<dd class="text-gray"><a href="mailto:sales@infracommunication.com">sales@infracommunication.com</a></dd>
+												<!-- <dt>Email Us</dt>
+												<dd class="text-gray"><a href="mailto:sales@infracom.me">sales@infracom.me</a></dd> -->
 											</dl>
 										</div>
 									</div>
@@ -273,7 +313,7 @@
 						<div class="col-12">
 							<div id="copyright">
 								<ul class="menu">
-									<li>&copy; Infracom Communication Networks 2023. All rights reserved</li><li>Design: <a href="https://www.infracommunication.com">Omar Barakat | Infracommunication</a></li>
+									<li>&copy; Infracom Communication Networks 2023. All rights reserved</li>
 								</ul>
 							</div>
 						</div>

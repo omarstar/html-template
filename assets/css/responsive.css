@@ -1,0 +1,207 @@
+/*Large screen*/
+
+@media only screen and (min-width: 1500px) {
+    .nav-collapse>ul {
+        padding-right: 150px;
+    }
+}
+
+
+
+
+
+
+/* Tablet Layout waid */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .nav-collapse>ul {
+        padding: 0;
+        text-align: left;
+    }
+    .menu-item {
+        padding: 20px 2px;
+    }
+    .menu-item>a {
+        font-size: 13px;
+    }
+    .single_logo {
+        width: 23%;
+    }
+    .wcu_icon {
+        right: -90px;
+    }
+    .about_imges img {
+        width: unset;
+    }
+}
+
+
+
+
+/* tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        text-align: center;
+    }
+    .single_logo {
+        width: 30%;
+    }
+    .single_logo_blank {
+        display: none;
+    }
+    .wcu_icon {
+        right: -75px;
+    }
+    .copyright,
+    .copy_right_text.text-right {
+        text-align: center;
+    }
+    .nav-collapse>ul {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .nav-collapse>ul {
+        text-align: center;
+    }
+    .menu-item {
+        padding: 20px 8px 20px 0;
+    }
+    html,
+    body {
+        height: auto;
+    }
+    .slider_wrapper,
+    .slider_wrapper div {
+        height: 450px;
+    }
+    .slider_item {
+        background-position: left bottom;
+    }
+    .about_imges img {
+        width: 55%;
+    }
+    #about .col-md-6.text-center {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    #product {
+        padding-bottom: 0px;
+    }
+    .about_imges img {
+        width: unset;
+    }
+}
+
+
+
+
+
+
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        text-align: left;
+    }
+    /* .icon {
+        font-size: 20px;
+        position: absolute;
+        right: 15px;
+        top: -34px;
+    } */
+    header {
+        padding: 15px 0;
+    }
+    .arrow_down {
+        top: -60px;
+    }
+    .about_content {
+        padding-top: 30px;
+    }
+    .why_content {
+        width: 100%;
+    }
+    .wcu_bg::after {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .controls {
+        width: 100%;
+    }
+    .nav-tabs li a {
+        padding: 10px;
+    }
+    .wcu_content {
+        padding: 0 30px;
+        text-align: left;
+    }
+    .wcu_content>h2::after {
+        left: 0;
+    }
+    .wcu_content>h2 {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    
+    .wcu_icon {
+        position: relative;
+    }
+    .single_logo {
+        margin: 3px;
+        width: 100%;
+    }
+    .single_logo_blank {
+        display: none;
+    }
+    .copyright {
+        text-align: center;
+    }
+    #toTop {
+        bottom: 65px;
+    }
+    .copy_right_text.text-right {
+        text-align: center;
+    }
+    .nav-collapse>ul {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .nav-collapse>ul {
+        text-align: left;
+    }
+    .menu-item {
+        padding: 20px 8px 20px 0;
+    }
+    html,
+    body {
+        height: auto;
+    }
+    .slider_wrapper,
+    .slider_wrapper div {
+        height: 300px;
+    }
+    .slider_item {
+        background-position: left bottom;
+    }
+    .about_imges img {
+        width: 80%;
+    }
+    #product {
+        padding-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+/* small scren*/
+
+@media only screen and (max-width: 339px) {
+    .logo img {
+        width: 60%;
+    }
+}
